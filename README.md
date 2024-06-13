@@ -66,17 +66,15 @@ None at the moment.
 ## Other Comments:
 - Some levels are timed, while others are not.
 - Music plays throughout the game, with specific tracks for victory and defeat.
-- We used design patterns:
+- I used design patterns:
   - **Observer Pattern:** The entity being observed (Subject) and the observer (Observer).
   - **State Pattern:** Different states of Pacman.
 
-We also used Double Dispatch for handling collisions.
+I also used Double Dispatch for handling collisions.
 
-We fixed all necessary issues, such as function names and smart demon movement.
+I added the **EatDemonPacmanGift** to allow Pacman to eat demons for a limited time, implemented using the State pattern.
 
-We added the **EatDemonPacmanGift** to allow Pacman to eat demons for a limited time, implemented using the State pattern.
-
-Doors and keys are color-matched, ensuring each key opens the corresponding door.
+Doors and keys are color-matched, ensuring each key opens the corresponding door, and not opening a random door.
 
 ## SFML Library:
 We used the SFML library for graphics and sound. Follow these instructions to install and use SFML version 2.5.1 to ensure proper compilation:
